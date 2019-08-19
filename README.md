@@ -17,7 +17,10 @@ For more information about dotfiles, I wrote these articles on my blog:
 3. Clone this repository
 
   ```
-  git clone git@github.com:rkalis/dotfiles.git
+  git clone --separate-git-dir=$HOME/.myconf https://github.com/cah6/dotfiles $HOME/myconf-tmp
+  cp ~/myconf-tmp/.gitmodules ~  # If you use Git submodules
+  rm -r ~/myconf-tmp/
+  alias c='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
   ```
 4. Run the `bootstrap.sh` script
     1. Alternatively, only run the `setup.sh` scripts in specific subfolders if you don't need everything
