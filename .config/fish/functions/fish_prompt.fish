@@ -1,0 +1,1 @@
+/Users/cah6/.local/share/omf/themes/spacefish/fish_prompt.fish
