@@ -34,7 +34,8 @@ done
 killall cfprefsd
 
 # Ignore certain synced files that change automatically
+info "Git ignoring certain tracked files..."
 alias c='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
-c update-index --assume-unchanged Library/Preferences/com.googlecode.iterm2.plist
+c update-index --assume-unchanged ~/Library/Preferences/com.googlecode.iterm2.plist
 
 success "Finished installing Dotfiles"
