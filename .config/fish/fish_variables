@@ -2,9 +2,9 @@
 # VERSION: 3.0
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
-SETUVAR Z_DATA:/Users/cah6/\x2elocal/share/z/data
-SETUVAR Z_DATA_DIR:/Users/cah6/\x2elocal/share/z
-SETUVAR Z_EXCLUDE:/Users/cah6
+SETUVAR Z_DATA:/Users/christian\x2ehenry/\x2elocal/share/z/data
+SETUVAR Z_DATA_DIR:/Users/christian\x2ehenry/\x2elocal/share/z
+SETUVAR Z_EXCLUDE:/Users/christian\x2ehenry
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
