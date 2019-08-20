@@ -18,7 +18,7 @@
   alias c='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
   ```
 4. Sign into apple store
-5. Run the `bootstrap.sh` script
+5. Run the `~/dotfiles/bootstrap.sh` script
 6. Open karabiner elements to give it to the right access
 7. Disable spotlight search hotkey, open alfred, manually apply config
 8. Install moom, should automatically apply read settings
