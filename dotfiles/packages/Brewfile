@@ -8,7 +8,7 @@ tap 'yqrashawn/goku'
 
 brew 'brew-cask-completion'
 brew 'coreutils'
-brew 'duti'
+# brew 'duti'
 brew 'emacs'
 # should I run `brew services start emacs`?
 brew 'ffmpeg'
@@ -24,7 +24,7 @@ brew 'python@2'
 brew 'python'
 brew 'sqlite'
 brew 'wget'
-brew 'yqrashawn/goku/goku'
+# brew 'yqrashawn/goku/goku'
 
 cask 'adobe-acrobat-reader'
 cask 'alfred'
