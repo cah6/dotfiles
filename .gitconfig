@@ -1,3 +1,7 @@
+# When you update changes, need to run:
+# c update-index --no-assume-unchanged .gitconfig
+# To allow the change in git. And then run the following to re-lock:
+# c update-index --assume-unchanged .gitconfig
 [user]
 	name = Christian Henry
 	email = christian.henry92@gmail.com
@@ -15,6 +19,8 @@
 [alias]
 	unstage = reset HEAD --
 	uncommit = reset --soft HEAD~
+	st = status
+	co = checkout
 	rb = "!f() { \
 	    echo fetching...; \
 	    git fetch; \
