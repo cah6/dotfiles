@@ -1,10 +1,5 @@
 # Dotfiles
 
-For more information about dotfiles, I wrote these articles on my blog:
-* [Dotfiles: automating macOS system configuration](https://kalis.me/dotfiles-automating-macos-system-configuration/)
-* [Increasing development productivity with repository management](https://kalis.me/increasing-development-productivity-repository-management/)
-* [Set up a Hyper Key with Hammerspoon on macOS](https://kalis.me/setup-hyper-key-hammerspoon-macos/)
-
 ## Usage
 1. Restore your safely backed up ssh keys to `~/.ssh/`
     1. Alternatively, generate new ssh keys, and add these to your GitHub account
@@ -26,6 +21,7 @@ For more information about dotfiles, I wrote these articles on my blog:
 5. Run the `bootstrap.sh` script
 6. Open karabiner elements to give it to the right access
 7. Disable spotlight search hotkey, open alfred, manually apply config
+8. Install moom, should automatically apply read settings
 
 #### Git
 * The .gitconfig file includes my [user] config, replace these with your own user name and email

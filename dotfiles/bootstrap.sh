@@ -30,4 +30,11 @@ find * -name "setup.sh" -not -wholename "packages*" | while read setup; do
     ./$setup
 done
 
+# Kill any caches for prefs
+killall cfprefsd
+
+# Ignore certain synced files that change automatically
+alias c='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
+c update-index --assume-unchanged Library/Preferences/com.googlecode.iterm2.plist
+
 success "Finished installing Dotfiles"
